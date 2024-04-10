@@ -1,0 +1,121 @@
+.body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: chartreuse;
+    color: black;
+    padding: 10px;
+}
+
+.nav-menu {
+    text-align: center;
+}
+
+.nav-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.nav-menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: all 0.3s;
+    border-radius: 50px;
+
+}
+
+.nav-menu ul li a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+}
+
+.main-content-1{
+border: solid black;
+position: absolute;
+left: 20x;
+padding: 10px;
+}
+
+.main-btn-1{
+    color: black;
+    background-color: chartreuse; 
+    padding: 10px 15px;
+    display: inline-block;
+    transition: all 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.main-btn-1:hover{
+    background-color: white;
+    color: darkgreen;
+}
+
+.main-btn-2{
+    color: black;
+    background-color: chartreuse; 
+    padding: 10px 15px;
+    display: inline-block;
+    transition: all 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.main-btn-2:hover{
+    background-color: white;
+    color: darkgreen;
+}
+
+.main-btn-3{
+    color: black;
+    background-color: chartreuse; 
+    padding: 10px 15px;
+    display: inline-block;
+    transition: all 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.main-btn-3:hover{
+    background-color: white;
+    color: darkgreen;
+}
+
+.main-content-2{
+    border: solid black;
+    position: absolute;
+    left: 250px;
+    padding: 10px;
+}
+
+.main-content-3{
+    border: solid black;
+    position: absolute;
+    left: 500px;
+    padding: 10px;
+}
+
+.footer{
+    background-color: chartreuse;
+    color: black;
+    position: absolute;
+    bottom: 50px; 
+    left: 1300px;
+    text-align: center; 
+}
